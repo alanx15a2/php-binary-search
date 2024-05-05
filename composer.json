@@ -1,0 +1,23 @@
+{
+    "name": "alanx15a2/php-binary-search",
+    "description": "global function do binary search.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alanx15a2\\PhpBinarySearch\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "alanx15a2",
+            "email": "alanx15a2@yahoo.com.tw"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    }
+}
