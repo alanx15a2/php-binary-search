@@ -10,7 +10,7 @@ if (function_exists('array_search_binary') === false) {
             if ($target > $array[$i]) {
                 $l = $i + 1;
             } elseif ($target < $array[$i]) {
-                $r = $r - 1;
+                $r = $i - 1;
             } else {
                 return $i;
             }
